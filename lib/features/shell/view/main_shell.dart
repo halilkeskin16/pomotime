@@ -16,19 +16,10 @@ class _MainShellState extends State<MainShell> {
     const Placeholder(), 
     const Placeholder(), 
   ];
-
-  final List<String> _titles = [
-    'Pomodoro',
-    'Ayarlar',
-    'Mağaza',
-  ];
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(_titles[_selectedIndex]),
-      ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const [

@@ -1,3 +1,4 @@
-const String pomodoroRoute = '/' ; 
-const String settingsRoute = '/settings' ;
-const String shopRoute = '/shop' ;
+const String shellRoute = '/shell';
+const String loginRoute = '/login';  
+const String signUpRoute = '/signup'; 
+

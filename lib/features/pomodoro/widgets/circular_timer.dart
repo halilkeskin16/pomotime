@@ -14,7 +14,7 @@ class CircularTimer extends StatelessWidget {
           final double size = constraints.maxWidth;
           final double strokeWidth = size / 20;
           final double fontSize = size / 4;
-
+          
           return Stack(
             fit: StackFit.expand,
             children: [
